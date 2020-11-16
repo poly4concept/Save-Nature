@@ -5,11 +5,11 @@ html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-#nav-items{
+#nav-item{
     margin-left: 12rem;
     margin-right: 50px;
 }
-#nav-items li{
+#nav-item li{
     margin-left: 30px;
     font-weight: bold
 }
