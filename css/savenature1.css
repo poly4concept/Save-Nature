@@ -8,7 +8,9 @@ html{
 nav{
     background-color: rgba(255, 255, 255, 0.527);
 }
-
+.navbar-toggler-icon {
+    border-color: rgb(25, 146, 9);
+  }
 #nav-item{
     margin-left: 12rem;
 }
