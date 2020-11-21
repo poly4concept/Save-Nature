@@ -5,6 +5,12 @@ html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+nav{
+    background-color: rgba(255, 255, 255, 0.527);
+}
+.navbar-toggler-icon {
+    border-color: rgb(25, 146, 9);
+  }
 #nav-item{
     margin-left: 12rem;
 }
@@ -28,6 +34,27 @@ html{
 #search-button:hover{
     background-color: white;
     color: black;
-    outline: black 1px solid;
     border-radius: 12px;
+}
+section.jumbotron{
+    position: relative;
+}
+.hero-bg{
+    background-image: url("https://raw.githubusercontent.com/poly4concept/Save-Nature/main/Images/Optimized-hero_bg.jpg");
+    width: 100%;
+    height: 50rem;
+    position: absolute;
+    z-index: -3;
+    transform: translateY(-45%);
+    border-radius: 0 0 0 54px;
+}
+#jumbotron-link{
+    background-color: black;
+    border-radius: 12px;
+    height: auto;
+    color: white;
+}
+#jumbotron-link:hover{
+    color: green;
+    background-color: white;
 }
