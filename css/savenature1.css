@@ -40,7 +40,7 @@ section.jumbotron{
     position: relative;
 }
 .hero-bg{
-    background-image: url("https://raw.githubusercontent.com/poly4concept/Save-Nature/main/Images/Optimized-hero_bg.jpg");
+    background-image: url("https://raw.githubusercontent.com/poly4concept/Save-Nature/main/Images/hero.jpg");
     width: 100%;
     height: 50rem;
     position: absolute;
