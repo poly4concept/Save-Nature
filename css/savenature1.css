@@ -65,3 +65,18 @@ section.jumbotron{
 #event-card{
     margin-right: 20rem;
 }
+#next-arrow{
+    margin-top: 25rem;
+    font-size: large;
+    color: green;
+    margin-right: -4rem;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
