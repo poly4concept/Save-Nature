@@ -79,4 +79,50 @@ section.jumbotron{
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  
+#input-design{
+    margin-bottom: 10px;
+}
+#input-name{
+    border: white 3px  solid;
+    background-color: white;
+    padding: 5px;
+    width: 20rem;
+    height: 3rem;
+    color: black;
+}
+#input-email{
+    border: white 3px  solid;
+    background-color: white;
+    padding: 5px;
+    width: 20rem;
+    height: 3rem;
+    color: black;
+}
+#input-name:focus, #input-email:focus{
+    outline: solid 1px rgb(33, 1, 51);
+}
+#submit-btn{
+    width: 20rem;
+    height: 3rem;
+    background-color: red;
+    border: red 1px solid;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+#submit-btn:hover{
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+}
+#social-icons a{
+    margin-right: 20px;
+    color: white;
+    font-size: large;
+}
+@media screen and (max-width:800px){
+    #input-name, #input-email, #submit-btn{
+        width: 13rem;
+    }
+}
