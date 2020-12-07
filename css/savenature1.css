@@ -125,4 +125,7 @@ section.jumbotron{
     #input-name, #input-email, #submit-btn{
         width: 13rem;
     }
+    #next-arrow{
+        margin-top: 40rem;
+    }
 }
