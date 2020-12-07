@@ -126,6 +126,6 @@ section.jumbotron{
         width: 10rem;
     }
     #next-arrow{
-        margin-top: 50rem;
+        display: none;
     }
 }
