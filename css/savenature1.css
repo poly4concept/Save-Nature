@@ -123,7 +123,7 @@ section.jumbotron{
 }
 @media screen and (max-width:800px){
     #input-name, #input-email, #submit-btn{
-        width: 10rem;
+        width: 16rem;
     }
     #next-arrow{
         display: none;
