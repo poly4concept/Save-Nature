@@ -122,8 +122,10 @@ section.jumbotron{
     font-size: large;
 }
 @media screen and (max-width:800px){
-    #input-name, #input-email, #submit-btn{
-        width: 10rem;
+    #footer-container{
+        display: flex;
+        align-items: center;
+        padding-left: 5rem;
     }
     #next-arrow{
         display: none;
